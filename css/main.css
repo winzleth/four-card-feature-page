@@ -80,7 +80,7 @@ p {
 	border-top: 4px solid hsl(180, 62%, 55%);
 	border-radius: 5px;
 	text-align: left;
-	box-shadow: 0 4px 8px 0 hsl(229, 6%, 66%), 0 6px 20px 0 hsl(229, 6%, 66%);
+	box-shadow: 0 5px 20px 12px hsl(229 28% 92% / 1);
 }
 
 .secInner {
