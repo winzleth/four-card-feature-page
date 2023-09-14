@@ -18,8 +18,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
+	font-size: 100%;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -29,24 +29,24 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body  {
-	text-align: center;
 	background-color: hsl(0, 0%, 98%);
+	text-align: center;
 }
 
 .spOnly {display: none;}
 .pcOnly {display: block;}
 
 .mainBlock {
-	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
-	color: hsl(234, 12%, 34%);
 	padding: 81px 10px 0;
+	color: hsl(234, 12%, 34%);
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
 	box-sizing: border-box;
 }
 
 p {
-	font-weight: 400;
 	color: hsl(229, 6%, 66%);
+	font-weight: 400;
 }
 
 .mainTtl {
@@ -68,17 +68,17 @@ p {
 
 .contentWrap {
 	display: flex;
+	margin-top: 66px;
 	justify-content: center;
 	align-items: center;
-	margin-top: 66px;
 }
 
 .secWrap {
-	font-weight: 400;
 	width: 347px;
-	background-color: #fff;
 	border-top: 4px solid hsl(180, 62%, 55%);
 	border-radius: 5px;
+	background-color: #fff;
+	font-weight: 400;
 	text-align: left;
 	box-shadow: 0 5px 20px 12px hsl(229 28% 92% / 1);
 }
@@ -92,8 +92,8 @@ p {
 }
 
 .sec03 {
-	border-top: 4px solid hsl(34, 97%, 64%);
 	margin-top: 32px;
+	border-top: 4px solid hsl(34, 97%, 64%);
 }
 
 .sec04 {
@@ -106,8 +106,8 @@ p {
 }
 
 .secTxt {
-	font-size: 13px;
 	margin-top: 9px;
+	font-size: 13px;
     line-height: 1.7;
 	letter-spacing: .1px;
 }
@@ -117,8 +117,8 @@ p {
 }
 
 .secImg {
-	text-align: right;
 	margin-top: 40px;
+	text-align: right;
 }
 
 footer {
@@ -143,8 +143,8 @@ footer {
     	line-height: 1.7;
 	}
 	.contentWrap {
-		flex-direction: column;
 		margin-top: 43px;
+		flex-direction: column;
 	}
 	.contentCenter {
 		width: 100%;
